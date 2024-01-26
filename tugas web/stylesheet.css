@@ -1,0 +1,159 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  font-family: "Avenir Next";
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header .header-logo .navbar-brand img {
+  width: 57px; 
+  height : 55px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.header {
+  background-color: #FFC8C8;
+  color: #fff;
+  height: 90px;
+}
+
+.main .copy-container p {
+  font-size: 25px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 38px 20px;
+}
+
+.main {
+  padding: 80px 80px;
+}
+.copy-container h1 {
+  font-size: 140px;
+}
+.copy-container h2 {
+  font-size: 60px;
+  
+}
+.copy-container span {
+  color: #ff4a4a;
+}
+.contents {
+  margin-top: 100px;
+  height: 500px;
+}
+
+.contents-item {
+  margin-right: 40px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+.footer {
+
+  background-color: #672f45;
+  
+  height: 120px;
+
+  padding: 40px;
+  
+}
+.contact-form{
+  padding-top: 100px;
+}
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.footer {
+  background-color: #672f3d;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.contents-item img {
+    width: 200px;
+    height: 340px;
+    object-fit: contain;
+}
+.btns {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #F38BA0;
+  cursor: pointer;
+  box-shadow: 0 7px #FFBCBC;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("AvenirNextLTPro-Regular.otf"); 
+  }
+/* Gantikan float property footer-list */
+
+
+/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+
